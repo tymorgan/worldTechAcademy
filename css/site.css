@@ -1,0 +1,50 @@
+
+.logo-pos {
+	height: 40px;
+}
+
+.logo-pos-sign-up {
+	height: 60px;
+}
+
+.dollar2 {
+	font-size: 19px;
+    position: relative;
+    top: -18px; 
+}
+
+.price2 {
+	font-size: 49px;
+}
+
+.marg-bottom {
+	margin-bottom: 28px;
+}
+
+.how-it {
+	margin-top: 80px;
+	margin-bottom: 90px;
+	font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    text-transform: uppercase;
+}
+
+.social-fa {
+	color: #b2c3cb;
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #b2c3cb), color-stop(100%, #dbe3e7));
+    background: -webkit-linear-gradient(#b2c3cb, #dbe3e7);
+    font-size: 40px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.course {
+	font-size: 43px;
+}
+
+.dollarH {
+	font-size: 19px;
+    position: relative;
+    top: -15px; 
+}
