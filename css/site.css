@@ -39,6 +39,15 @@
     -webkit-text-fill-color: transparent;
 }
 
+.social-fa-contact {
+    color: #b2c3cb;
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #b2c3cb), color-stop(100%, #dbe3e7));
+    background: -webkit-linear-gradient(#b2c3cb, #dbe3e7);
+    font-size: 60px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .course {
 	font-size: 43px;
 }
