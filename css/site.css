@@ -57,3 +57,23 @@
     position: relative;
     top: -15px; 
 }
+
+#newsSection {
+    background-color:#143628;
+    padding-bottom: 25px;
+}
+.white-text {
+    color:white;
+}
+
+.kslLogo {
+    height:60px !important;
+}
+
+.newsLogo {
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
