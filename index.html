@@ -24,6 +24,7 @@
     <![endif]-->
 </head>
 <body id="home">
+<!-I want to make it so the header sticks to the top as you scroll down but that it changes color so that the viewer can read the options-->
 	<header class="navbar navbar-inverse hero" role="banner">
   		<div class="container">
     		<div class="navbar-header">
@@ -78,26 +79,29 @@
 			<!-- <div class="img"></div> -->	
 		</div>
 	</div>
-
-	<div style="background:#00ad63;">
+<!-DEBUG NOTE: I need to figure out why there is a space between these 2 divs. Also, I want to expand the size of the email input box to include all the placeholder text-->
+	<div id="clients">
 		<div class="container">
-				<h3 class="sub-text">
-					<b>All classes currently full</b>
-				</h3>
-				<br>
-				<h3>
-					 Next classes begin Summer 2015 | Enrollment opening soon!
-				</h3>
+			<div class="row">
+				<div class="col-md-12">
+					<h3 class="sub-text">
+						<b>All classes currently full</b>
+					</h3>
+					<br>
+					<h3>
+						 Next classes begin Summer 2015 | Enrollment opening soon!
+					</h3>
+					<div class="container">
+						<form role="form" action="register.php" method="post" enctype="plain"> 
+							<input type="email" name="email" class="col-md-4 subscribe2-input" placeholder="Stay up to date & reserve your spot, enter email..." required>
+							<button class='button-outline subscribe-submit' type="submit">Submit</button>
+						</form>
+					</div>
+				</div>
+			</div>
 		</div>
-		<br>
-		<div class="container">
-			<form role="form" action="register.php" method="post" enctype="plain"> 
-				<input type="email" name="email" class="col-md-4 subscribe2-input" placeholder="Stay up to date and reserve your spot, enter email..." required>
-				<button class='button-outline subscribe-submit' type="submit">Submit</button>
-			</form>
-		</div>
-		
 	</div>
+
 
 	<div id="features">
 		<div class="container">
@@ -127,7 +131,7 @@
 						We all hit road blocks when learning to code, it's inevitable. With World Tech Academy every student is personally mentored by a professional. Get exclusive access to our professional mentors.
 					</p>
 					<p>
-						Start coding together and get those burning questions answered. Depending on your own plan, you can meet with a mentor as often as you choose! 
+						Start coding together and get those burning questions answered. Depending on what course you are taking and your availability, you can meet with a mentor as often as you choose! 
 					</p>
 				</div>
 				<div class="col-md-6 image text-center">
@@ -137,15 +141,15 @@
 			<div class="divider"></div>
 			<div class="row feature backwards">
 				<div class="col-md-6 info">
-					<h4>Crowdsourced Curriculum</h4>
+					<h4>Applicable & Diverse Curriculum</h4>
 					<p>
-						Curriculum is good and it has all these great features
+						Our curriculum is constantly being updated to include the most relevant technologies today! Choose the course that best fits your desired skill set, and then get ready to dive head first into our intensive organized curriculum. 
 					</p>
 					<p>
-						Here is some more about the awesome curriculum!
+						Learning to code is not just about learning programming languages.  We make sure our curriculum is well rounded to aid our students in becomming proficient at programming as well as at all other aspects of their chosen path. At the end of the class you will have all the tools needed to be a successful programmer! 
 					</p>
 				</div>
-				<div class="col-md-6 image">
+				<div class="col-md-6 image" style="padding-top:60px;">
 					<img src="images/Curriculum1.png" class="img-responsive" alt="feature3" />
 				</div>
 			</div>
@@ -156,7 +160,7 @@
 		<div class="container">
 			<div class="row header">
 				<div class="col-md-12">
-					<h3>Choose your Path</h3>
+					<h3>Pick your Path</h3>
 					
 				</div>
 			</div>
@@ -168,7 +172,7 @@
 							<span class="course">2400</span>
 							
 						</div>
-						<div class="plan-name">Front End Web Development</div>
+						<div class="plan-name">Front End Web Developer</div>
 						<div class="specs">
 							<div class="spec">
 								<span class="variable">Learn</span>
@@ -202,7 +206,7 @@
 							<span class="course">3200</span>
 							
 						</div>
-						<div class="plan-name">Full Stack Web Development</div>
+						<div class="plan-name">Full Stack Web Developer</div>
 						<div class="specs">
 							<div class="spec">
 								<span class="variable">Learn</span>
@@ -213,7 +217,7 @@
 								plans available
 							</div>
 							<div class="spec">
-								<span class="variable">Front</span>end & Backend
+								<span class="variable">Front end</span> & Back end
 							</div>
 							<div class="spec">
 								<span class="variable">Languages</span>
@@ -343,24 +347,12 @@
 		</div>
 	</div>
 
-	<div id="cta">
-		<p>
-			Start your free 7 day trial! 
-		</p>
-		<a href="signup-rotate.html">
-			Sign up for free
-		</a>
-	</div>
-
 
 	<div id="clients">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h3>Media Mentions</h3>
-					<p>
-						What is everyone saying?
-					</p>
+					<h3>What is everyone saying?</h3>
 					<div class="logos">
 						<a class="clickable" href="http://www.ksl.com/index.php?nid=1012&sid=30451444" target="_blank"><img class="newsLogo kslLogo" src="images/newsLogos/ksl.png"></a>
 						<a class="clickable" href="http://www.heraldextra.com/business/local/byu-students-creating-class-to-help-biz-owners-learn-web/article_5da52dd5-7cb6-587e-ae3e-a9291e3853b3.html" target="_blank"><img class="newsLogo" src="images/newsLogos/dailyheraldlogo.png"></a>
@@ -373,6 +365,15 @@
 				</div>
 			</div>
 		</div>
+	</div>
+
+	<div id="cta">
+		<p>
+			What are you waiting for?
+		</p>
+		<a href="signup-rotate.html">
+			Save your spot today!
+		</a>
 	</div>
 
 	<div id="footer-white">

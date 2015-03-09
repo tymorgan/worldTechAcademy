@@ -5878,7 +5878,7 @@ html.bg {
     @media (min-width: 992px) {
       #portfolio-item #showcase .project .description .info.stick {
         position: fixed;
-        top: 10px; } }
+        top: 10px;} }
     #portfolio-item #showcase .project .description .info .icons {
       margin-bottom: 20px; }
       #portfolio-item #showcase .project .description .info .icons .ion-icon:before {
