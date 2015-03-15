@@ -10,7 +10,7 @@
 .dollar2 {
 	font-size: 19px;
     position: relative;
-    top: -18px; 
+    top: -18px;
 }
 
 .price2 {
@@ -55,7 +55,7 @@
 .dollarH {
 	font-size: 19px;
     position: relative;
-    top: -15px; 
+    top: -15px;
 }
 
 #newsSection {
@@ -76,4 +76,30 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 40px;
+}
+
+.scrolling {
+	background-color:#2F2F2F !important;
+	border-bottom:1px solid #cccccc !important;
+	transition: background-color 0.3s ease;
+}
+
+#mainMenu {
+	z-index: 1000000;
+}
+
+#menuLinks > li > a {
+	padding:12px !important;
+}
+
+.navbar-brand {
+	padding:0px;
+}
+
+#clients {
+	margin-top:0 !important;
+}
+
+#hero {
+	top:0 !important;
 }

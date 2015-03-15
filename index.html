@@ -2,11 +2,10 @@
 <html>
 <head>
 	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<title>World Tech Academy | Learn coding skills from home</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-<!-I want to add the little icon in the browser tab-->
 
 	<!-- stylesheets -->
 	<link rel="stylesheet" type="text/css" href="css/compiled/theme.css">
@@ -26,8 +25,7 @@
     <![endif]-->
 </head>
 <body id="home">
-<!-I want to make it so the header sticks to the top as you scroll down but that it changes color so that the viewer can read the options-->
-	<header class="navbar navbar-inverse hero" role="banner">
+	<header id="mainMenu" class="navbar navbar-inverse navbar-fixed-top hero" role="banner">
   		<div class="container">
     		<div class="navbar-header">
 		      	<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
@@ -40,7 +38,7 @@
       			</a>
     		</div>
     		<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-      			<ul class="nav navbar-nav navbar-right">
+      			<ul id="menuLinks" class="nav navbar-nav navbar-right">
         			<li>
         				<a href="how-it-works.html">
           					How It Works
@@ -82,7 +80,7 @@
 		</div>
 	</div>
 
-<!-DEBUG NOTE: I need to figure out why there is a space between these 2 divs. Also, I want to expand the size of the email input box to include all the placeholder text-->
+<!--DEBUG NOTE: I need to figure out why there is a space between these 2 divs. Also, I want to expand the size of the email input box to include all the placeholder text-->
 	<div id="clients">
 		<div class="container">
 			<div class="row">
@@ -95,7 +93,7 @@
 						 Next classes begin Summer 2015 | Enrollment opening soon!
 					</h3>
 					<div class="container">
-						<form role="form" action="register.php" method="post" enctype="plain"> 
+						<form role="form" action="register.php" method="post" enctype="plain">
 							<input type="email" name="email" class="col-md-4 subscribe2-input" placeholder="Stay up to date & reserve your spot, enter email..." required>
 							<button class='button-outline subscribe-submit' type="submit">Submit</button>
 						</form>
@@ -119,7 +117,7 @@
 					<p>
 						Learn by building real projects. Every student leaves class with a number of projects in their portfolio to show employers. Projects include a portfolio site, a jQuery image gallery, a snake web game, and a custom built twitter. Build your projects with a partner or on your own.
 					</p>
-					
+
 				</div>
 				<div class="col-md-6 image">
 					<img src="images/feature-comp.png" class="img-responsive" alt="feature1" />
@@ -133,7 +131,7 @@
 						We all hit road blocks when learning to code, it's inevitable. With World Tech Academy every student is personally mentored by a professional. Get exclusive access to our professional mentors.
 					</p>
 					<p>
-						Start coding together and get those burning questions answered. Depending on what course you are taking and your availability, you can meet with a mentor as often as you choose! 
+						Start coding together and get those burning questions answered. Depending on what course you are taking and your availability, you can meet with a mentor as often as you choose!
 					</p>
 				</div>
 				<div class="col-md-6 image text-center">
@@ -145,17 +143,17 @@
 				<div class="col-md-6 info">
 					<h4>Applicable & Diverse Curriculum</h4>
 					<p>
-						Our curriculum is constantly being updated to include the most relevant technologies today! Choose the course that best fits your desired skill set, and then get ready to dive head first into our intensive organized curriculum. 
+						Our curriculum is constantly being updated to include the most relevant technologies today! Choose the course that best fits your desired skill set, and then get ready to dive head first into our intensive organized curriculum.
 					</p>
 					<p>
-						Learning to code is not just about learning programming languages.  We make sure our curriculum is well rounded to aid our students in becomming proficient at programming as well as at all other aspects of their chosen path. At the end of the class you will have all the tools needed to be a successful programmer! 
+						Learning to code is not just about learning programming languages.  We make sure our curriculum is well rounded to aid our students in becomming proficient at programming as well as at all other aspects of their chosen path. At the end of the class you will have all the tools needed to be a successful programmer!
 					</p>
 				</div>
 				<div class="col-md-6 image" style="padding-top:60px;">
 					<img src="images/Curriculum1.png" class="img-responsive" alt="feature3" />
 				</div>
 			</div>
-		</div>		
+		</div>
 	</div>
 
 	<div id="pricing">
@@ -163,7 +161,7 @@
 			<div class="row header">
 				<div class="col-md-12">
 					<h3>Pick your Path</h3>
-					
+
 				</div>
 			</div>
 			<div class="row charts">
@@ -172,7 +170,7 @@
 						<div class="quantity">
 							<span class="dollarH">$</span>
 							<span class="course">2400</span>
-							
+
 						</div>
 						<div class="plan-name">Front End Web Developer</div>
 						<div class="specs">
@@ -192,21 +190,21 @@
 								<span class="variable">Languages</span>
 								HTML, CSS, JavaScript, jQuery, AngularJS, & Bootstrap
 							</div>
-							
+
 						</div>
 						<a class="mt2 button" href="front-end-web-development-course.html">
 							<span>See Syllabus</span>
 						</a>
 					</div>
 				</div>
-				
+
 				<div class="col-md-4">
 					<div class="chart featured">
 						<div class="popular">Most popular</div>
 						<div class="quantity">
 							<span class="dollarH">$</span>
 							<span class="course">3200</span>
-							
+
 						</div>
 						<div class="plan-name">Full Stack Web Developer</div>
 						<div class="specs">
@@ -225,9 +223,9 @@
 								<span class="variable">Languages</span>
 								Node.JS, MongoDB, Express.JS, PHP, & MYSQL
 							</div>
-							
+
 						</div>
-						
+
 						<a class="mt2 button" href="full-stack-web-development-course.html">
 							<span>See Syllabus</span>
 						</a>
@@ -257,7 +255,7 @@
 								<span class="variable">Possible Languages</span>
 								C#, .NET, Java, Python, Ruby on Rails & more
 							</div>
-							
+
 						</div>
 						<a class="mt2 button" href="enterprise.html">
 							<span>Learn More</span>
@@ -282,7 +280,7 @@
 						<div class="btn-nav prev"></div>
 						<div class="btn-nav next"></div>
 						<div class="slide active">
-							<img src="images/slider/kolache.png" alt="Kolache site" /> 
+							<img src="images/slider/kolache.png" alt="Kolache site" />
 						</div>
 						<div class="slide">
 							<img src="images/slider/scripture.png" alt="Scripture Calculator site" />
@@ -297,7 +295,7 @@
 							<img src="images/slider/slide2.png" alt="slide2" />
 						</div>
 					</div>
-				</div>	
+				</div>
 			</div>
 		</div>
 	</div>
@@ -329,7 +327,7 @@
 				<div class="col-sm-6">
 					<div class="testimonial">
 						<div class="quote">
-							I think the nice thing about learning to code is the flexibility. I can really do whatever I want with it. I can go get a full time job, I can do freelance work at home, or I can do something for myself. The skills are really applicable to any area of my life. 
+							I think the nice thing about learning to code is the flexibility. I can really do whatever I want with it. I can go get a full time job, I can do freelance work at home, or I can do something for myself. The skills are really applicable to any area of my life.
 							<br>
 							<br>
 
@@ -402,7 +400,7 @@
 	        			<li>
 	          				<a href="blog.html">Blog</a>
 	        			</li>
-	        			
+
 	      			</ul>
 				</div>
 				<div class="col-sm-3 menu">
@@ -419,7 +417,7 @@
 	        			</li>
 	        			<li>
 	          				<a href="full-stack-web-development-course.html">Full Stack</a>
-	          				
+
 	        			</li>
 	        			<li>
 	          				<a href="enterprise.html">Enterprise</a>
@@ -459,7 +457,7 @@
 					</div>
 					<!-- <a href="contactus.html">
 						<span class="fa fa-facebook-square social-fa"></span>
-						
+
 					</a>
 					<a href="contactus.html">
 						<span class="fa fa-twitter-square social-fa"></span>
@@ -478,12 +476,12 @@
 	  <div class="modal-dialog">
 	    <div class="modal-content">
 	      <div class="modal-header">
-	        
+
 	        <h4 class="modal-title text-center" id="exampleModalLabel">Enter your email address to see the syllabus</h4>
 	      </div>
 	      <div class="modal-body">
 	      		<form role="form">
-					
+
 					<div class="form-group">
 						<input placeholder="Enter Your Email Here..." type="email" class="form-control" id="email" />
 					</div>
@@ -495,7 +493,7 @@
 					</div>
 				</form>
 	      </div>
-	      
+
 	    </div>
 	  </div>
 	</div> -->
