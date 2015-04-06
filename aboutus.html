@@ -49,17 +49,17 @@
         			</li>
         			<li>
         				<a href="paths.html">
-          					Paths
+          					Courses
           				</a>
         			</li>
         			<li>
-        				<a href="enterprise.html">
-          					Enterprise
+        				<a href="aboutus.html">
+          					About
           				</a>
         			</li>
         			<li>
-        				<a href="español.html">
-          					Español
+        				<a href="contactus.html">
+          					Contact Us
           				</a>
         			</li>
       			</ul>
@@ -85,7 +85,9 @@
 <!-I need to figure out how to format these slider pictures so they don't look stretched-->
 			<div class="row">
 				<div class="col-md-12">
-					<div class="flexslider">
+					<img src="images/aboutus1.jpg" alt="office2" />
+				</div>
+	<!--				<div class="flexslider">
 					  	<ul class="slides">
 						    <li>
 						      	<img src="images/aboutus1.jpg" alt="office2" />
@@ -98,7 +100,7 @@
 						    </li>
 					  	</ul>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>
@@ -164,7 +166,12 @@
 					<p>
 						Most of our open positions are hourly or part-time requiring availability in the evenings. To find out what positions we have available and to apply click the button below and fill out the form. We are excited to have you on our team! 
 					</p>
-					<a href="#" class="join-team button button-small">Join our team</a>
+					<a href="#" data-toggle="modal" data-target="#exampleModal">
+							<span class="join-team button button-small">
+								Join our team
+							</span>
+						</a>
+			<!--		<a href="contactus.html" class="join-team button button-small">Join our team</a> -->
 				</div>
 			</div>
 			<div class="row stats">
@@ -317,18 +324,17 @@
 	          				<a href="how-it-works.html">How It Works</a>
 	        			</li>
 	      				<li>
-	          				<a href="paths.html">Pick a Path</a>
-	        			</li>
-	        			<li>
-	        				<a href="front-end-web-development-course.html">Front End</a>
+	          				<a href="paths.html">Pick a Course</a>
 	        			</li>
 	        			<li>
 	          				<a href="full-stack-web-development-course.html">Full Stack</a>
 	          				
 	        			</li>
+	        			<!--
 	        			<li>
 	          				<a href="enterprise.html">Enterprise</a>
-	        			</li>
+	        			</li> 
+	        			-->
 	      			</ul>
 				</div>
 				<div class="col-sm-2 menu">
@@ -387,5 +393,62 @@
 			$('[data-toggle="tooltip"]').tooltip();
 	  	});
 	</script>
+
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+	        <h4 class="modal-title text-center" id="exampleModalLabel">Tell us about yourself</h4>
+	      </div>
+	      <div class="modal-body">
+	      		<form role="form">
+					<div class="form-group">
+						<label for="name">First & Last Name</label>
+						<input type="text" class="form-control" id="name" />
+					</div>
+					<div class="form-group">
+						<label for="email">Email Address</label>
+						<input type="email" class="form-control" id="email" />
+					</div>
+
+					<div class="form-group">
+						<label for="tel">Phone Number</label>
+						<input type="tel" class="form-control" id="phone" />
+					</div>
+					<div class="form-group">
+						<label for="tel">Preferred Method of Contact</label>
+						<input type="tel" class="form-control" id="email" />
+					</div>
+					<div class="form-group">
+						<label for="tel">GitHub Account URL</label>
+						<input type="tel" class="form-control" id="email" />
+					</div>
+					<div class="form-group">
+						<label for="tel">LinkedIn URL</label>
+						<input type="tel" class="form-control" id="email" />
+					</div>
+		<!--How to do a resume upload on the site?-->			
+					<div class="form-group">
+						<label for="tel">Resume Upload</label>
+						<input type="tel" class="form-control" id="email" />
+					</div>
+					<div class="form-group">
+						<label for="tel">Message</label>
+						<textarea class="form-control" rows="3"></textarea>
+					</div>
+
+					<div class="submit text-center">
+						<a href="index.html" class="button-clear">
+						<span>Send Request</span>
+						</a>
+					</div>
+				</form>
+	      </div>
+	      
+	    </div>
+	  </div>
+	</div>
 </body>
 </html>
