@@ -30,8 +30,10 @@ $(window).scroll(function() {
 
     if (scroll >= 20) {
         $("#mainMenu").addClass("scrolling");
+        $("#headerApplyButton").removeClass("hide");
     } else {
         $("#mainMenu").removeClass("scrolling");
+		$("#headerApplyButton").addClass("hide");
     }
 });
 

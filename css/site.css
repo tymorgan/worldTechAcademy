@@ -81,7 +81,7 @@
 .scrolling {
 	background-color:#2F2F2F !important;
 	border-bottom:1px solid #cccccc !important;
-	transition: background-color 0.3s ease;
+	/*transition: background-color 0.3s ease;*/
 }
 
 #mainMenu {
@@ -102,4 +102,12 @@
 
 #hero {
 	top:0 !important;
+}
+
+#headerApplyButton {
+
+}
+
+.hide {
+	display:none !important;
 }
