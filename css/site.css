@@ -111,3 +111,7 @@
 .hide {
 	display:none !important;
 }
+
+#signup-rotate .wrappers {
+	min-height:1800px;
+}
