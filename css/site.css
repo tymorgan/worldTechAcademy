@@ -115,3 +115,7 @@
 #signup-rotate .wrappers {
 	min-height:1800px;
 }
+
+#completed-wrappers {
+	min-height:200px !important;
+}

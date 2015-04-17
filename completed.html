@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>Apply | World Tech Academy</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+	<!-- stylesheets -->
+	<link rel="stylesheet" type="text/css" href="css/compiled/theme.css">
+	<link rel="stylesheet" type="text/css" href="css/site.css">
+
+	<!-- javascript -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="js/bootstrap/bootstrap.min.js"></script>
+	<script src="js/theme.js"></script>
+
+	<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body id="signup-rotate">
+	<div class="container">
+		<div class="row header">
+			<div class="col-md-12">
+				<h3 class="logo">
+					<a href="index.html">
+      				<img src="images/wta-logo.png" alt="World Tech Academy Logo" class="logo-pos-sign-up">
+      			</a>
+				</h3>
+
+			</div>
+		</div>
+
+<!--do we need to make any of these fields required meaning it wont submit unless they fill them out?-->
+		<div class="row">
+			<div class="col-md-12 rotate-container">
+
+				<div id="completed-wrappers" class="wrappers">
+					<div class="wrapper front clearfix">
+						<div class="formy">
+							<div class="row">
+								<div class="col-md-12 text-center">
+									<h4>Thanks for Applying!</h4>
+									<p>Someone will be in touch with you shortly regarding your application. Return to our <a href="index.html">homepage</a> and read more about our class.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		$(function () {
+			// this makes the forms rotate back and forth using the class .flipped
+			var $btns = $(".change-view");
+			var $wrappers = $(".wrappers");
+			$btns.click(function (e) {
+				e.preventDefault();
+
+				$wrappers.toggleClass("flipped");
+				$btns.removeClass("active");
+
+				if ($wrappers.hasClass("flipped")) {
+					$btns.eq(1).addClass("active");
+
+					setTimeout(function () {
+						$wrappers.addClass("flipped-ended");
+					}, 350);
+				} else {
+					$btns.eq(0).addClass("active");
+
+					setTimeout(function () {
+						$wrappers.removeClass("flipped-ended");
+					}, 350);
+				}
+			});
+
+			// initializing popover for demonstration only, you can remove it!
+			$(".change-view a").popover();
+			$(".change-view a").popover('show');
+		});
+	</script>
+</body>
+</html>
