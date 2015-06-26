@@ -11,6 +11,8 @@
 	<link rel="stylesheet" type="text/css" href="css/vendor/animate.css">
 	<link rel="stylesheet" type="text/css" href="css/site.css">
 	<link rel="stylesheet" type="text/css" href="css/vendor/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
 
 	<!-- javascript -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -22,7 +24,7 @@
     <![endif]-->
 </head>
 <body id="home">
-	<header class="navbar navbar-inverse hero" role="banner">
+	<header class="navbar navbar-inverse normal" role="banner">
   		<div class="container">
     		<div class="navbar-header">
 		      	<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
@@ -31,11 +33,11 @@
 			        <span class="icon-bar"></span>
 		      	</button>
       			<a href="index.html" class="navbar-brand">
-			      				<img src="images/wta-logo.png" alt="World Tech Academy Logo" class="logo-pos">
-			      			</a>
+      				<img src="images/wta-logo.png" alt="World Tech Academy Logo" class="logo-pos">
+      			</a>
     		</div>
     		<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-      			<ul class="nav navbar-nav navbar-right">
+      			<ul class="nav navbar-nav">
       				<li>
         				<a href="how-it-works.html">
           					How It Works
@@ -52,15 +54,22 @@
           				</a>
         			</li>
         			<li>
-        				<a href="empresa.html">
+        				<a href="español.html">
           					Español
           				</a>
+        			</li>
+      			</ul>
+      			<ul class="nav navbar-nav navbar-right visible-md visible-lg">
+      				<li>
+          				<a href="signup-rotate.html" class="button">Sign up free</a>
         			</li>
       			</ul>
     		</nav>
   		</div>
 	</header>
 
+<!--*******there is a space here that I want to get rid of*****-->
+	
 	<div id="hero">
 		<div class="container">
 			<h1 class="hero-text animated fadeInDown">
@@ -351,47 +360,101 @@
 		</a>
 	</div>
 
-	<div id="footer">
+		<div id="footer-white">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-3 copyright">
-					World Tech Academy © 2014
-				</div>
-				<div class="col-sm-6 menu">
+				<div class="col-sm-3 menu">
+					<h3>Company</h3>
 					<ul>
 	      				<li>
+	          				<a href="aboutus.html">About Us</a>
+	        			</li>
+	        			<li>
+	        				<a href="contactus.html">Contact Us</a>
+	        			</li>
+	        			<li>
+	          				<a href="aboutus.html">Jobs</a>
+	          				<a href="aboutus.html" class="hiring">
+	          					We're hiring!
+	          				</a>
+	        			</li>
+	        			<li>
 	          				<a href="español.html">Español</a>
-	        			</li>
-	        			<li>
-	        				<a href="aboutus.html">About Us</a>
-	        			</li>
-	        			<li>
-	          				<a href="contactus.html">Contact Us</a>
-	        			</li>
-	        			<li>
-	          				<a href="contactus.html">Jobs</a>
 	        			</li>
 	        			<li>
 	          				<a href="blog.html">Blog</a>
 	        			</li>
+	        			
 	      			</ul>
 				</div>
-				<div class="col-sm-3 social">
-					<a href="contactus.html">
+				<div class="col-sm-3 menu">
+					<h3>Learning</h3>
+					<ul>
+						<li>
+	          				<a href="how-it-works.html">How It Works</a>
+	        			</li>
+	      				<li>
+	          				<a href="paths.html">Pick a Path</a>
+	        			</li>
+	        			<li>
+	        				<a href="front-end-web-development-course.html">Front End</a>
+	        			</li>
+	        			<li>
+	          				<a href="full-stack-web-development-course.html">Full Stack</a>
+	          				
+	        			</li>
+	        			<li>
+	          				<a href="enterprise.html">Enterprise</a>
+	        			</li>
+	      			</ul>
+				</div>
+				<div class="col-sm-2 menu">
+					<h3>Social</h3>
+					<ul>
+	      				<li>
+	          				<a href="https://www.facebook.com/worldtechacademy">
+								<span class="fa fa-facebook-square social-fa"></span>
+							</a>
+	        			</li>
+	        			<li>
+	        				<a href="https://twitter.com/WorldTechAcad">
+								<span class="fa fa-twitter-square social-fa"></span>
+							</a>
+	        			</li>
+	        			<li>
+	          				<a href="https://www.youtube.com/channel/UCRAfeoxOEydjAW2QdhyBHwQ">
+								<span class="fa fa-youtube-square social-fa"></span>
+							</a>
+	        			</li>
+	      			</ul>
+	      			
+				</div>
+				<div class="col-sm-4 newsletter">
+					<div class="signup clearfix">
+						<p>
+							Sign up for the newsletter and we'll inform you of updates, offers and more.
+						</p>
+						<form>
+							<input type="text" name="email" class="form-control" placeholder="Your email address" />
+							<input type="submit" value="Sign up" />
+						</form>
+					</div>
+					<!-- <a href="contactus.html">
 						<span class="fa fa-facebook-square social-fa"></span>
 						
 					</a>
 					<a href="contactus.html">
 						<span class="fa fa-twitter-square social-fa"></span>
-					</a>
-					<a href="contactus.html">
-						<span class="fa fa-youtube-square social-fa"></span>
-					</a>
+					</a> -->
+				</div>
+			</div>
+			<div class="row credits">
+				<div class="col-md-12">
+					Copyright © 2014. World Tech Academy
 				</div>
 			</div>
 		</div>
 	</div>
-
 <!-- Modal -->
 	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 	  <div class="modal-dialog">

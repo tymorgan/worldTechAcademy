@@ -2,9 +2,10 @@
 <html>
 <head>
 	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<title>World Tech Academy | Learn coding skills from home</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
 	<!-- stylesheets -->
 	<link rel="stylesheet" type="text/css" href="css/compiled/theme.css">
@@ -12,6 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="css/site.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" type="text/css" href="css/vendor/font-awesome.css">
+
 
 	<!-- javascript -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -23,7 +25,7 @@
     <![endif]-->
 </head>
 <body id="home">
-	<header class="navbar navbar-inverse hero" role="banner">
+	<header id="mainMenu" class="navbar navbar-inverse navbar-fixed-top hero" role="banner">
   		<div class="container">
     		<div class="navbar-header">
 		      	<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
@@ -36,7 +38,7 @@
       			</a>
     		</div>
     		<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-      			<ul class="nav navbar-nav navbar-right">
+      			<ul id="menuLinks" class="nav navbar-nav navbar-right">
         			<li>
         				<a href="how-it-works.html">
           					How It Works
@@ -44,19 +46,20 @@
         			</li>
         			<li>
         				<a href="paths.html">
-          					Paths
+          					Courses
           				</a>
         			</li>
         			<li>
-        				<a href="enterprise.html">
-          					Enterprise
+        				<a href="aboutus.html">
+          					About
           				</a>
         			</li>
         			<li>
-        				<a href="español.html">
-          					Español
+        				<a href="contactus.html">
+          					Contact Us
           				</a>
         			</li>
+
       			</ul>
     		</nav>
   		</div>
@@ -72,10 +75,40 @@
 			</p>
 			<div class="cta animated fadeInDown">
 				<a href="how-it-works.html" class="button-outline">How it works</a>
-				<a href="signup-rotate.html" class="button">Sign up free</a>
-
+				<a href="signup-rotate.html" class="button">Apply Now</a>
 			</div>
-			<!-- <div class="img"></div> -->
+			<!--<div class="img"></div>-->
+		</div>
+	</div>
+
+	<div id="clients">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+				
+					<br>
+					<h3>
+						 Announcing new course in Salt Lake City beginning August 4, 2015
+					</h3> <br>
+					<a href="signup-rotate.html"><h3 id="enrollNow">Enrollment now open!</h3></a>
+					<br><br>
+					<div class="container">
+						<div id='crmWebToEntityForm' align='center'>
+							<META HTTP-EQUIV ='content-type' CONTENT='text/html;charset = UTF-8'>
+							<form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads1217167000000081005 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatery()' accept-charset='UTF-8'>
+								<input type='text' style='display:none;' name='xnQsjsdp' value='0519fd2fc6bef78e99c767157f350154a9c11cf7027fcf6161c8a1b9b2fd4f0d'/>  <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+								<input type='text' style='display:none;' name='xmIwtLD' value='37fa23020a5c757dd4ae2695bbce70dbb13bb40b14d6bd48440d14a4ddb053de'/>  <input type='text'  style='display:none;' name='actionType' value='TGVhZHM='/>
+								<input type='text' style='display:none;' name='returnURL' value='http&#x3a;&#x2f;&#x2f;worldtechacademy.com&#x2f;' />
+								<br>
+								<input type='text' class="col-md-offset-2 col-md-4 subscribe2-input" placeholder="Enter email for info" name='Email'/>
+								<input type='text' style='display:none;'  maxlength='80' name='Last Name' value="Not Provided"/>
+								<button class='button-outline subscribe-submit' value="Submit" type="submit">Submit</button>
+								<script> var mndFileds=new Array('Last Name','Email');var fldLangVal=new Array('Last Name','Email');function reloadImg(){if(document.getElementById('imgid').src.indexOf('&d') !== -1 ){document.getElementById('imgid').src=document.getElementById('imgid').src.substring(0,document.getElementById('imgid').src.indexOf('&d'))+'&d'+new Date().getTime();}else{document.getElementById('imgid').src = document.getElementById('imgid').src+'&d'+new Date().getTime();}}function checkMandatery(){var name='';var email='';for(i=0;i<mndFileds.length;i++){ var fieldObj=document.forms['WebToLeads1217167000000081005'][mndFileds[i]];if(fieldObj) {if(((fieldObj.value).replace(/^\s+|\s+$/g, '')).length==0){alert(fldLangVal[i] +' cannot be empty'); fieldObj.focus(); return false;}else if(fieldObj.nodeName=='SELECT'){if(fieldObj.options[fieldObj.selectedIndex].value=='-None-'){alert(fldLangVal[i] +' cannot be none'); fieldObj.focus(); return false;}} else if(fieldObj.type =='checkbox'){ if (fieldObj.checked == false){     alert('Please accept  '+fldLangVal[i]); fieldObj.focus();return false;}}try{if(fieldObj.name == 'Last Name'){name = fieldObj.value;}}catch(e){}}}try{if($zoho){var LDTuvidObj = document.forms['WebToLeads1217167000000081005']['LDTuvid'];if(LDTuvidObj){LDTuvidObj.value = $zoho.salesiq.visitor.uniqueid();}var firstnameObj = document.forms['WebToLeads1217167000000081005']['First Name'];if(firstnameObj){name = firstnameObj.value +' '+name;}$zoho.salesiq.visitor.name(name);var emailObj = document.forms['WebToLeads1217167000000081005']['Email'];if(emailObj){email = emailObj.value;$zoho.salesiq.visitor.email(email);}}}catch(e){}}</script>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 
@@ -83,56 +116,71 @@
 		<div class="container">
 			<div class="row header">
 				<div class="col-md-12">
-					<h2>Gain hard skills and be mentored by industry professionals.</h2>
-					<p>Learn to code from your couch and become a web developer in 12 weeks.</p>
+					<h2>Gain applicable skills and be mentored by industry professionals.</h2>
+					<p>Learn to code on campus and become a web developer in as little as 12 weeks.</p>
 				</div>
 			</div>
-			<div class="row feature">
+			<div class="row feature backwards">
 				<div class="col-md-6 info">
 					<h4>Learn By Building</h4>
 					<p>
-						Learn by building real projects. Every student leaves class with at least six projects in their portfolio to show employers. Projects include a portfolio site, a jQuery image gallery, a snake web game, and twitter. Build your projects with a partner or on your own.
+						Learn by building real projects. Every student leaves class with a number of projects in their portfolio to show employers. Projects include a portfolio site, tip calculator, plinko game, and custom built twitter. Build projects and improve your skills. You will build each project using the technologies you learn in class.
+					</p>
+
+				</div>
+				<div class="col-md-6 image">
+					<img src="images/feature-comp.png" class="img-responsive" alt="feature1" />
+				</div>
+			</div>
+			<div class="divider"></div>
+			<div class="row feature">
+				<div class="col-md-6 info">
+					<h4>Get Mentored</h4>
+					<p>
+						We all hit road blocks when learning to code, it's inevitable. With World Tech Academy every student is personally mentored by a professional. Get exclusive access to our professional mentors.
+					</p>
+					<p>
+						Start coding together and get those burning questions answered. Depending on your availability, you can meet with a mentor as often as you choose!
 					</p>
 				</div>
 				<div class="col-md-6 image text-center">
-					<img src="images/feature-comp.png" class="img-responsive" alt="feature1" />
+					<img src="images/feature-mentor.jpeg" class="img-responsive" alt="feature2" />
 				</div>
 			</div>
 			<div class="divider"></div>
 			<div class="row feature backwards">
 				<div class="col-md-6 info">
-					<h4>Get Mentored</h4>
+					<h4>Applicable & Diverse Curriculum</h4>
 					<p>
-						We all hit road blocks when learning to code, it's inevitable. With World Tech Academy every student is personally mentored by a professional.
+						Our curriculum is constantly being updated to include the most relevant technologies today! Learn more about our Full Stack Course, and then get ready to dive head first into our intensive organized curriculum.
 					</p>
 					<p>
-						Start coding together and get those burning questions answered. Depending on your plan, every student meets with their mentor one to three times per week.
+						Learning to code is not just about learning programming languages.  We make sure our curriculum is well rounded to aid our students in becomming proficient at programming as well as at all other aspects of their chosen path. At the end of the class you will have all the tools needed to be a successful programmer!
 					</p>
 				</div>
-				<div class="col-md-6 image">
-					<img src="images/feature-mentor.jpeg" class="img-responsive" alt="feature2" />
+				<div class="col-md-6 image" style="padding-top:60px;">
+					<img src="images/Homepage.jpg" class="img-responsive" alt="feature3" />
 				</div>
 			</div>
-		</div>		
+		</div>
 	</div>
 
 	<div id="pricing">
 		<div class="container">
 			<div class="row header">
 				<div class="col-md-12">
-					<h3>Try us for 7 days totally free.</h3>
-					
+					<h3>Pick your Course</h3>
 				</div>
 			</div>
 			<div class="row charts">
-				<div class="col-md-4">
+				<!-- <div class="col-md-4">
 					<div class="chart first">
 						<div class="quantity">
 							<span class="dollarH">$</span>
 							<span class="course">2400</span>
-							
+
 						</div>
-						<div class="plan-name">Front End Web Development</div>
+						<div class="plan-name">Front End Web Developer</div>
 						<div class="specs">
 							<div class="spec">
 								<span class="variable">Learn</span>
@@ -150,22 +198,23 @@
 								<span class="variable">Languages</span>
 								HTML, CSS, JavaScript, jQuery, AngularJS, & Bootstrap
 							</div>
-							
+
 						</div>
 						<a class="mt2 button" href="front-end-web-development-course.html">
 							<span>See Syllabus</span>
 						</a>
 					</div>
-				</div>
-				<div class="col-md-4">
+				</div> -->
+
+				<div class="col-md-8 col-md-offset-2">
 					<div class="chart featured">
-						<div class="popular">Most popular</div>
+						<!-- <div class="popular">Most popular</div> -->
 						<div class="quantity">
 							<span class="dollarH">$</span>
 							<span class="course">3200</span>
-							
+
 						</div>
-						<div class="plan-name">Full Stack Web Development</div>
+						<div class="plan-name">Full Stack Web Developer</div>
 						<div class="specs">
 							<div class="spec">
 								<span class="variable">Learn</span>
@@ -176,20 +225,22 @@
 								plans available
 							</div>
 							<div class="spec">
-								<span class="variable">Front</span>end & Backend
+								<span class="variable">Front end</span> & Back end
 							</div>
 							<div class="spec">
 								<span class="variable">Languages</span>
-								Node.JS, MongoDB, Express.JS, PHP, & MYSQL
+								JavaScript, Angular, Node.JS, MySQL, and more
 							</div>
-							
+
 						</div>
+
 						<a class="mt2 button" href="full-stack-web-development-course.html">
 							<span>See Syllabus</span>
 						</a>
 					</div>
 				</div>
-				<div class="col-md-4">
+
+				<!-- <div class="col-md-4">
 					<div class="chart last">
 						<div class="quantity">
 							<span class="dollarH"></span>
@@ -212,17 +263,18 @@
 								<span class="variable">Possible Languages</span>
 								C#, .NET, Java, Python, Ruby on Rails & more
 							</div>
-							
+
 						</div>
 						<a class="mt2 button" href="enterprise.html">
 							<span>Learn More</span>
 						</a>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>
 
+<!--I think it would be cool to add links to all of these sites we put in this slideshow, but I don't know how.....reseach this-->
 	<div id="slider">
 		<div class="container">
 			<div class="row header">
@@ -242,18 +294,22 @@
 							<img src="images/slider/scripture.png" alt="Scripture Calculator site" />
 						</div>
 						<div class="slide">
-							<img src="images/slider/slide1.png" alt="slide1" />
+							<img src="images/slider/OkeokePoro.png" alt="Okeoke Poro Site" />
 						</div>
 						<div class="slide">
-							<img src="images/slider/slide5.png" alt="slide5" />
+							<img src="images/slider/AccessHealthEd.png" alt="Access Health Ed Site" />
 						</div>
 						<div class="slide">
-							<img src="images/slider/slide2.png" alt="slide2" />
+							<img src="images/slider/provotips.png" alt="Provo Tips Site" />
+						</div>
+						<div class="slide">
+							<img src="images/slider/tabybags.png" alt="Taby Bags Site" />
 						</div>
 					</div>
-				</div>	
+				</div>
 			</div>
 		</div>
+
 	</div>
 
 	<div id="testimonials">
@@ -267,7 +323,7 @@
 				<div class="col-sm-6">
 					<div class="testimonial pull-right">
 						<div class="quote">
-							I'm seeing that now I have gone through the course, I am able to apply for jobs that are looking for front end developers or are looking for specific qualifications like HTML, CSS and JavaScript. I look at the application and I can say yes, I know that! Then I look down at the wage that I will be getting, and I'm just stoked!
+							I'm seeing, now that I have gone through the course, that I am able to apply for jobs that are looking for front end developers or are looking for specific qualifications like HTML, CSS and JavaScript. I look at the application and I can say, "yes, I know that!" Then I look at the wage that I will be getting, and I'm just stoked!
 							<div class="arrow-down">
 				                <div class="arrow"></div>
 				                <div class="arrow-border"></div>
@@ -283,7 +339,7 @@
 				<div class="col-sm-6">
 					<div class="testimonial">
 						<div class="quote">
-							I think the nice things about learning to code is the flexibility. I can really do whatever I want with it. I can go get a full time job, I can do freelance work at home, or I can do something for myself. The skills are really applicable to any area of my life. 
+							I think the nice thing about learning to code is the flexibility. I can really do whatever I want with it. I can go get a full time job, I can do freelance work at home, or I can do something for myself. The skills are really applicable to any area of my life.
 							<br>
 							<br>
 
@@ -302,40 +358,40 @@
 			</div>
 		</div>
 	</div>
+	<br><br><br>
 
-	<div id="cta">
-		<p>
-			Start your free 7 day trial! 
-		</p>
-		<a href="signup-rotate.html">
-			Sign up for free
-		</a>
-	</div>
-
-	<!-- <div id="clients">
+	<div id="clients">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h3>Our Sponsors</h3>
-					<p>
-						These are some of our customers who have helped us by using our product.
-					</p>
+					<h3>What is everyone saying?</h3>
 					<div class="logos">
-						<img src="images/logos/google.png">
-						<img src="images/logos/facebook.png">
-						<img src="images/logos/apple.png">
-						<img src="images/logos/stripe.png">
-						<img src="images/logos/yahoo.png">
+						<a class="clickable" href="http://www.ksl.com/index.php?nid=1012&sid=30451444" target="_blank"><img class="newsLogo kslLogo" src="images/newsLogos/ksl.png"></a>
+						<a class="clickable" href="http://www.heraldextra.com/business/local/byu-students-creating-class-to-help-biz-owners-learn-web/article_5da52dd5-7cb6-587e-ae3e-a9291e3853b3.html" target="_blank"><img class="newsLogo" src="images/newsLogos/dailyheraldlogo.png"></a>
+						<a class="clickable" href="http://beehivestartups.com/blog/new-development-camp-provo-web-academy-offers-free-class-saturday/" target="_blank"><img class="newsLogo" src="images/newsLogos/beehivestartupslogo.png"></a>
+						<a class="clickable" href="http://universe.byu.edu/tag/provo-web-academy/" target="_blank"><img class="newsLogo" src="images/newsLogos/thedaily.png"></a>
+						<a class="clickable" href="http://www.24saltlake.com/uncategorized/unemployed-millennials-tech-training/" target="_blank"><img class="newsLogo" src="images/newsLogos/24SaltLake.png"></a>
+						<a class="clickable" href="http://www.provobuzz.com/blog/provo-web-academy-ventures-edtech/" target="_blank"><img class="newsLogo" src="images/newsLogos/provobuzz.png"></a>
+						<a class="clickable" href="http://siliconslopes.com/2014/06/moms-high-school-students-retirees-learn-coding-provo-web-academy/" target="_blank"><img class="newsLogo kslLogo" src="images/newsLogos/siliconslopes.png"></a>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div> -->
+	</div>
+
+	<div id="cta">
+		<p>
+			What are you waiting for?
+		</p>
+		<a href="signup-rotate.html">
+			Apply for Summer Term today!
+		</a>
+	</div>
 
 	<div id="footer-white">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-3 menu">
+				<div class="col-sm-4 col-sm-offset-1 menu">
 					<h3>Company</h3>
 					<ul>
 	      				<li>
@@ -350,67 +406,54 @@
 	          					We're hiring!
 	          				</a>
 	        			</li>
+	        			<!--
 	        			<li>
 	          				<a href="español.html">Español</a>
 	        			</li>
+	        			<!--
 	        			<li>
 	          				<a href="blog.html">Blog</a>
 	        			</li>
-	        			
+						-->
 	      			</ul>
 				</div>
-				<div class="col-sm-3 menu">
+				<div class="col-sm-4 menu">
 					<h3>Learning</h3>
 					<ul>
 						<li>
 	          				<a href="how-it-works.html">How It Works</a>
 	        			</li>
 	      				<li>
-	          				<a href="paths.html">Pick a Path</a>
-	        			</li>
-	        			<li>
-	        				<a href="front-end-web-development-course.html">Front End</a>
+	          				<a href="paths.html">Pick a Course</a>
 	        			</li>
 	        			<li>
 	          				<a href="full-stack-web-development-course.html">Full Stack</a>
-	          				
+
 	        			</li>
-	        			<li>
+	        	<!--	<li>
 	          				<a href="enterprise.html">Enterprise</a>
-	        			</li>
+	        			</li>  -->
 	      			</ul>
 				</div>
 				<div class="col-sm-2 menu">
 					<h3>Social</h3>
 					<ul>
 	      				<li>
-	          				<a href="contactus.html">Youtube</a>
+	          				<a href="https://www.facebook.com/worldtechacademy" target="_blank">
+								<span class="fa fa-facebook-square social-fa"></span>
+							</a>
 	        			</li>
 	        			<li>
-	        				<a href="contactus.html">Facebook</a>
+	        				<a href="https://twitter.com/WorldTechAcad" target="_blank">
+								<span class="fa fa-twitter-square social-fa"></span>
+							</a>
 	        			</li>
 	        			<li>
-	          				<a href="contactus.html">Twitter</a>
+	          				<a href="https://www.youtube.com/channel/UCRAfeoxOEydjAW2QdhyBHwQ" target="_blank">
+								<span class="fa fa-youtube-square social-fa"></span>
+							</a>
 	        			</li>
 	      			</ul>
-				</div>
-				<div class="col-sm-4 newsletter">
-					<div class="signup clearfix">
-						<p>
-							Sign up for the newsletter and we'll inform you of updates, offers and more.
-						</p>
-						<form>
-							<input type="text" name="email" class="form-control" placeholder="Your email address" />
-							<input type="submit" value="Sign up" />
-						</form>
-					</div>
-					<!-- <a href="contactus.html">
-						<span class="fa fa-facebook-square social-fa"></span>
-						
-					</a>
-					<a href="contactus.html">
-						<span class="fa fa-twitter-square social-fa"></span>
-					</a> -->
 				</div>
 			</div>
 			<div class="row credits">
@@ -425,12 +468,12 @@
 	  <div class="modal-dialog">
 	    <div class="modal-content">
 	      <div class="modal-header">
-	        
+
 	        <h4 class="modal-title text-center" id="exampleModalLabel">Enter your email address to see the syllabus</h4>
 	      </div>
 	      <div class="modal-body">
 	      		<form role="form">
-					
+
 					<div class="form-group">
 						<input placeholder="Enter Your Email Here..." type="email" class="form-control" id="email" />
 					</div>
@@ -442,9 +485,18 @@
 					</div>
 				</form>
 	      </div>
-	      
+
 	    </div>
 	  </div>
 	</div> -->
+		<!--Start of Zopim Live Chat Script-->
+	<script type="text/javascript">
+	window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+	d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+	_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
+	$.src='//v2.zopim.com/?2C7n4rw3XPWn3XmhMqcbCTXkeP7URxIj';z.t=+new Date;$.
+	type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
+	</script>
+	<!--End of Zopim Live Chat Script-->
 </body>
 </html>

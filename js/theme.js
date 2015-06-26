@@ -1,8 +1,9 @@
-// 
-//	Scripts for the theme, 
+//
+//	Scripts for the theme,
 // 	slideshow is used for Home Alt #4 (index4.html)
 // 	services is used for Services (services.html)
-// 
+//
+
 
 $(function () {
 	slideshow.initialize();
@@ -24,6 +25,18 @@ $(function () {
 	}
 });
 
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 20) {
+        $("#mainMenu").addClass("scrolling");
+        $("#headerApplyButton").removeClass("hide");
+    } else {
+        $("#mainMenu").removeClass("scrolling");
+		$("#headerApplyButton").addClass("hide");
+    }
+});
+
 window.utils = {
 	isFirefox: function () {
 		return navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
@@ -36,7 +49,7 @@ var contactForm = {
 		if (!$contactForm.length) {
 			return;
 		}
-		
+
 		$contactForm.validate({
 			rules: {
 				"name": {
@@ -84,7 +97,7 @@ var services = {
 				var index = $features.index(this);
 				$screens.stop().fadeOut();
 				$screens.eq(index).fadeIn();
-			}			
+			}
 		});
 	},
 	initialize: function () {

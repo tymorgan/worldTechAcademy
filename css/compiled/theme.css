@@ -678,7 +678,7 @@ a:focus, button:focus {
   /*background-image: url("http://farm9.staticflickr.com/8222/8254861601_1fbf969a14_b.jpg");*/
   /* These are some ready-to-use backgrounds you can test out by uncommenting them */
   /*background-image: url("../../images/bg2.png");*/
-  background-image: url("../../images/header.jpg");
+  background-image: url("../../images/headerwtagrey.jpg");
   /*background-image: url("../../images/bg3.png");*/
   /*background-image: url("http://25.media.tumblr.com/665f306a0a5a5eae6e0c91f33ce74695/tumblr_mzzqv2P7MY1st5lhmo1_1280.jpg");*/
   /*background: -webkit-radial-gradient(closest-corner, rgba(16, 47, 70, 0) 60%, rgba(16, 47, 70, 0.26)), -webkit-linear-gradient(108deg, #5E8199, #153752 90%);*/
@@ -733,6 +733,7 @@ a:focus, button:focus {
         line-height: 38px;
         margin-top: 0;
         text-align: center; } }
+    
   #home #hero .sub-text {
     -webkit-font-smoothing: antialiased;
     text-align: center;
@@ -1203,7 +1204,7 @@ a:focus, button:focus {
       text-decoration: none;
       background: #039154; }
 #home #clients {
-  background: #2F2F2F;
+  background: #00ad63;
   /*background: radial-gradient(#36414e, #253241);*/
   margin-top: 120px;
   padding: 65px 0 80px;
@@ -5877,7 +5878,7 @@ html.bg {
     @media (min-width: 992px) {
       #portfolio-item #showcase .project .description .info.stick {
         position: fixed;
-        top: 10px; } }
+        top: 10px;} }
     #portfolio-item #showcase .project .description .info .icons {
       margin-bottom: 20px; }
       #portfolio-item #showcase .project .description .info .icons .ion-icon:before {

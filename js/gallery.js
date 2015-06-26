@@ -5,6 +5,7 @@
 //  Docs can be located at http://codepen.io/terrymun/full/JKHwp
 // 
 
+
 $(function (){
 
   // Global variables

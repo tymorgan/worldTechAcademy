@@ -2,9 +2,10 @@
 <html>
 <head>
 	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />	
-	<title>React - Bootstrap Theme</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>Apply | World Tech Academy</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
 	<!-- stylesheets -->
 	<link rel="stylesheet" type="text/css" href="css/compiled/theme.css">
@@ -28,12 +29,24 @@
       				<img src="images/wta-logo.png" alt="World Tech Academy Logo" class="logo-pos-sign-up">
       			</a>
 				</h3>
-				<h4>Set up your new account today.</h4>
+				<h4>Salt Lake City, Utah - August 4th, 2015</h4>
 				<p>
-					Start learning today with your 7 day free trial.
+					Now accepting applications for Summer Term beginning August 4, 2015. Seats fill up fast, apply soon to reserve your space. This course is a combined effort of World Tech Academy and Impact Hub Salt Lake. The course will be offered at the Impact Hub in Downtown SLC and the content and instructors will be powered by World Tech Academy. If you are interested in the location and start date Please follow the link below to the Impact Hub website and complete your application there. 
+					<br>
+					<br>
+					<a target="_blank" href="http://saltlake.impacthub.net/code-school/"><button class="btn btn-info">Apply Now</button></a>
+				</p>
+				<h4>Provo, Utah - September 1st, 2015</h4>
+				<p>
+					Now accepting applications for Fall Term in our Salt Lake City location beginning September 1, 2015. Seats fill up fast, apply soon to reserve your space. Upon receipt of your application, a Course Advisor will contact you to finish processing your application and answer any remaining questions! Please fill out <b>ALL</b> the fields below.
+				</p>
+				<p>
+					Welcome to World Tech Academy!
 				</p>
 			</div>
 		</div>
+
+<!--do we need to make any of these fields required meaning it wont submit unless they fill them out?-->
 		<div class="row">
 			<div class="col-md-12 rotate-container">
 
@@ -42,74 +55,166 @@
 						<div class="formy">
 							<div class="row">
 								<div class="col-md-12">
-									<form role="form">
-										<div class="form-group">
-								    		<label for="name">Your name</label>
-								    		<input type="text" class="form-control" id="name" />
-								  		</div>
-								  		<div class="form-group">
-								    		<label for="email">Email address</label>
-								    		<input type="email" class="form-control" id="email" />
-								  		</div>
-								  		<div class="form-group">
-								    		<label for="password">Password</label>
-								    		<input type="password" class="form-control" id="password" />
-								  		</div>
-								  		<div class="checkbox">
-								    		<label>
-								      			<input type="checkbox" name="terms"> You have read & agree to the 
-								      			<a href="#">Terms of service</a>.
-								    		</label>
-								  		</div>
-								  		<div class="submit">
-								  			<a href="index.html" class="button-clear">
-									  			<span>Create my account</span>
-									  		</a>
-								  		</div>
-									</form>
+									<div id='crmWebToEntityForm' align='center'>
+										<META HTTP-EQUIV ='content-type' CONTENT='text/html;charset = UTF-8'>
+										<form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads1217167000000192165 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatery()' accept-charset='UTF-8'>
+											<input type='text' style='display:none;' name='xnQsjsdp' value='0519fd2fc6bef78e99c767157f350154a9c11cf7027fcf6161c8a1b9b2fd4f0d'/>
+											<input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+											<input type='text' style='display:none;' name='xmIwtLD' value='37fa23020a5c757dd4ae2695bbce70db86dadc2ef49eda585051045203fed7a7'/>
+											<input type='text'  style='display:none;' name='actionType' value='TGVhZHM='/>
+											<input type='text' style='display:none;' name='returnURL' value='http&#x3a;&#x2f;&#x2f;worldtechacademy.com&#x2f;completed.html' />
+											<br>
+
+											<div class="form-group">
+									    		<label for="firstname">First Name</label>
+									    		<input type="text" class="form-control" id="firstname" maxlength='40' name='First Name'/>
+									  		</div>
+											<div class="form-group">
+									    		<label for="lastname">Last Name</label>
+									    		<input type="text" class="form-control" id="lastname" maxlength='80' name='Last Name'/>
+									  		</div>
+											<div class="form-group">
+									    		<label for="email">Email address</label>
+									    		<input type="email" class="form-control" id="email" placeholder="example@example.com" maxlength='100' name='Email'/>
+									  		</div>
+											<div class="form-group">
+									    		<label for="phone">Phone Number</label>
+									    		<input type="text" class="form-control" id="phone" placeholder="(555) 555-5555" maxlength='30' name='Phone'/>
+									  		</div>
+											<div class="form-group">
+									    		<label for="preferred">Preferred Method of Contact</label>
+									    		<select class="form-control" id="preferred" name='LEADCF2'>
+									    			<option value="-None-">Choose One</option>
+									    			<option value="Phone">Phone</option>
+									    			<option value="Email">Email</option>
+									    		</select>
+									  		</div>
+											<div class="form-group">
+									    		<label for="street">Street</label>
+									    		<input type="text" class="form-control" id="street" maxlength='250' name='Street'/>
+									  		</div>
+											<div class="form-group">
+									    		<label for="city">City</label>
+									    		<input type="text" class="form-control" id="city" maxlength='30' name='City'/>
+									  		</div>
+											<div class="form-group">
+									    		<label for="state">State</label>
+									    		<select class="form-control" id="state" name='State'>
+									    			<option value="c1">Choose one</option>
+									    			<option value="ab">Alabama</option>
+									    			<option value="al">Alaska</option>
+									    			<option value="az">Arizona</option>
+									    			<option value="ar">Arkansas</option>
+									    			<option value="ca">California</option>
+									    			<option value="co">Colorado</option>
+									    			<option value="cn">Connecticut</option>
+									    			<option value="de">Delaware</option>
+									    			<option value="fl">Florida</option>
+									    			<option value="ge">Georgia</option>
+									    			<option value="hi">Hawaii</option>
+									    			<option value="id">Idaho</option>
+									    			<option value="il">Illinois</option>
+									    			<option value="in">Indiana</option>
+									    			<option value="io">Iowa</option>
+									    			<option value="ka">Kansas</option>
+									    			<option value="kt">Kentucky</option>
+									    			<option value="la">Louisiana</option>
+									    			<option value="ma">Maine</option>
+									    			<option value="md">Maryland</option>
+									    			<option value="mg">Michigan</option>
+									    			<option value="mn">Minnesota</option>
+									    			<option value="ms">Mississippi</option>
+									    			<option value="mi">Missouri</option>
+									    			<option value="mt">Montana</option>
+									    			<option value="nb">Nebraska</option>
+									    			<option value="nv">Nevada</option>
+									    			<option value="nh">New Hampshire</option>
+									    			<option value="nj">New Jersey</option>
+									    			<option value="nm">New Mexico</option>
+									    			<option value="ny">New York</option>
+									    			<option value="nc">North Carolina</option>
+									    			<option value="nd">North Dakota</option>
+									    			<option value="oh">Ohio</option>
+									    			<option value="ok">Oklahoma</option>
+									    			<option value="or">Oregon</option>
+									    			<option value="pn">Pennsylvania</option>
+									    			<option value="ri">Rhode Island</option>
+									    			<option value="sc">Sounth Carolina</option>
+									    			<option value="sd">South Dakota</option>
+									    			<option value="tn">Tennessee</option>
+									    			<option value="tx">Texas</option>
+									    			<option value="ut">Utah</option>
+									    			<option value="vt">Vermont</option>
+									    			<option value="va">Virginia</option>
+									    			<option value="wa">Washington</option>
+									    			<option value="wv">West Virginia</option>
+									    			<option value="wi">Wisconsin</option>
+									    			<option value="wy">Wyoming</option>
+									    			<option value="dc">Washington DC</option>
+									    			<option value="usvi">US Virgin Islands</option>
+									    			<option value="g">Guam</option>
+									    			<option value="pr">Puerto Rico</option>
+									    			<option value="o">Other</option>
+									    		</select>
+									  		</div>
+											<div class="form-group">
+									    		<label for="zip">Zip Code</label>
+									    		<input type="text" class="form-control" id="zip" maxlength='30' name='Zip Code'/>
+									  		</div>
+											<div class="form-group">
+									    		<label for="dob">Date of Birth</label>
+									    		<input type="text" class="form-control" id="dob" placeholder="dd/mm/yyyy" maxlength='100' name='LEADCF3'/>
+									  		</div>
+											<div class="form-group">
+									    		<label for="gender">Gender</label>
+									    		<select class="form-control" id="gender" name='LEADCF4'>
+									    			<option value="c1">Choose one</option>
+									    			<option value="Female">Female</option>
+									    			<option value="Male">Male</option>
+									    		</select>
+									  		</div>
+											<div class="form-group">
+									    		<label for="course">Applying for</label>
+									    		<select class="form-control" id="course" name='LEADCF1'>
+													<option value='-None-'>Choose One</option>
+									    			<option value="Full Stack Web Development Summer 2015">Full Stack Web Development Summer 2015</option>
+									    		</select>
+									  		</div>
+											<div class="form-group">
+									    		<label for="experience">Have you done any coding before?</label>
+									    		<select class="form-control" id="experience" name='LEADCF5'>
+									    			<option value="-None-">Choose one</option>
+									    			<option value="Yes">Yes</option>
+									    			<option value="No">No</option>
+									    		</select>
+									  		</div>
+											<div class="form-group">
+												<label for="why">Why are you interested in learning to code?</label>
+												<textarea class="form-control" rows="6" name='LEADCF6' maxlength='2000'></textarea>
+											</div>
+											<div class="form-group">
+												<label for="what">What do you hope to learn to build duing your learning experience?</label>
+												<textarea class="form-control" rows="6" name='LEADCF7' maxlength='2000'></textarea>
+											</div>
+											<div class="form-group">
+												<label for="aboutyou">Tell us about yourself, anything that makes you interesting, special, or unique; have fun with it!</label>
+												<textarea class="form-control" rows="6" name='LEADCF8' maxlength='2000'></textarea>
+											</div>
+											<div class="checkbox">
+									    		<label>
+									      			By submitting you verify that you have read & agree to the <a href="termsofservice.pdf">Terms of Service</a>.
+									    		</label>
+									  		</div>
+									  		<div class="submit">
+												<input class="button" value="Submit Application" type="submit"/>
+									  		</div>
+											<script> var mndFileds=new Array('First Name','Last Name','Email','Phone','LEADCF1','LEADCF2','LEADCF3','LEADCF4','LEADCF5','LEADCF6','LEADCF7','LEADCF8');var fldLangVal=new Array('First Name','Last Name','Email','Phone','Applying For','Preferred Method of Contact','Date of Birth','Gender','Have you done any coding before?','Why are you interested in learning to code?','What do you hope to get out of this experience?','Tell us about yourself');function reloadImg(){if(document.getElementById('imgid').src.indexOf('&d') !== -1 ){document.getElementById('imgid').src=document.getElementById('imgid').src.substring(0,document.getElementById('imgid').src.indexOf('&d'))+'&d'+new Date().getTime();}else{document.getElementById('imgid').src = document.getElementById('imgid').src+'&d'+new Date().getTime();}}function checkMandatery(){var name='';var email='';for(i=0;i<mndFileds.length;i++){ var fieldObj=document.forms['WebToLeads1217167000000192165'][mndFileds[i]];if(fieldObj) {if(((fieldObj.value).replace(/^\s+|\s+$/g, '')).length==0){alert(fldLangVal[i] +' cannot be empty'); fieldObj.focus(); return false;}else if(fieldObj.nodeName=='SELECT'){if(fieldObj.options[fieldObj.selectedIndex].value=='-None-'){alert(fldLangVal[i] +' cannot be none'); fieldObj.focus(); return false;}} else if(fieldObj.type =='checkbox'){ if (fieldObj.checked == false){     alert('Please accept  '+fldLangVal[i]); fieldObj.focus();return false;}}try{if(fieldObj.name == 'Last Name'){name = fieldObj.value;}}catch(e){}}}try{if($zoho){var LDTuvidObj = document.forms['WebToLeads1217167000000192165']['LDTuvid'];if(LDTuvidObj){LDTuvidObj.value = $zoho.salesiq.visitor.uniqueid();}var firstnameObj = document.forms['WebToLeads1217167000000192165']['First Name'];if(firstnameObj){name = firstnameObj.value +' '+name;}$zoho.salesiq.visitor.name(name);var emailObj = document.forms['WebToLeads1217167000000192165']['Email'];if(emailObj){email = emailObj.value;$zoho.salesiq.visitor.email(email);}}}catch(e){}}</script>
+										</form>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-
-					<div class="wrapper back clearfix">
-						<div class="formy">
-							<div class="row">
-								<div class="col-md-12">
-									<form role="form">
-										<h3>Log in to your account</h3>
-								  		<div class="form-group">
-								    		<label for="email2">Email address</label>
-								    		<input type="email" class="form-control" id="email2" />
-								  		</div>
-								  		<div class="form-group">
-								    		<label for="password2">Password</label>
-								    		<input type="password" class="form-control" id="password2" />
-								  		</div>
-								  		<div class="checkbox">
-								    		<label>
-								      			<input type="checkbox" name="remember"> Remember me
-								    		</label>
-								  		</div>
-								  		<div class="submit">
-								  			<a href="index.html" class="button-clear">
-									  			<span>Sign in to my account</span>
-									  		</a>
-								  		</div>
-									</form>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="change-view active">
-					Already have an account?
-					<a href="#">Sign in here</a>
-				</div>
-				<div class="change-view">
-					Don't have an account?
-					<a href="#">Create one here</a>
 				</div>
 			</div>
 		</div>
@@ -122,7 +227,7 @@
 			var $wrappers = $(".wrappers");
 			$btns.click(function (e) {
 				e.preventDefault();
-				
+
 				$wrappers.toggleClass("flipped");
 				$btns.removeClass("active");
 

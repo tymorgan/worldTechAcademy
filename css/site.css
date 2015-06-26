@@ -10,7 +10,7 @@
 .dollar2 {
 	font-size: 19px;
     position: relative;
-    top: -18px; 
+    top: -18px;
 }
 
 .price2 {
@@ -39,6 +39,15 @@
     -webkit-text-fill-color: transparent;
 }
 
+.social-fa-contact {
+    color: #b2c3cb;
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #b2c3cb), color-stop(100%, #dbe3e7));
+    background: -webkit-linear-gradient(#b2c3cb, #dbe3e7);
+    font-size: 60px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .course {
 	font-size: 43px;
 }
@@ -46,5 +55,67 @@
 .dollarH {
 	font-size: 19px;
     position: relative;
-    top: -15px; 
+    top: -15px;
+}
+
+#newsSection {
+    background-color:#143628;
+    padding-bottom: 25px;
+}
+.white-text {
+    color:white;
+}
+
+.kslLogo {
+    height:60px !important;
+}
+
+.newsLogo {
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.scrolling {
+	background-color:#2F2F2F !important;
+	border-bottom:1px solid #cccccc !important;
+	/*transition: background-color 0.3s ease;*/
+}
+
+#mainMenu {
+	z-index: 1000000;
+}
+
+#menuLinks > li > a {
+	padding:12px !important;
+}
+
+.navbar-brand {
+	padding:0px;
+}
+
+#clients {
+	margin-top:0 !important;
+}
+
+#hero {
+	top:0 !important;
+}
+
+#headerApplyButton {
+
+}
+
+.hide {
+	display:none !important;
+}
+
+#signup-rotate .wrappers {
+	min-height:1800px;
+}
+
+#completed-wrappers {
+	min-height:200px !important;
 }
